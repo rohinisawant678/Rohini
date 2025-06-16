@@ -1,0 +1,40 @@
+#s
+{
+    background-color: rgb(187, 187, 84);
+    height: 350px;
+    width: 350px;
+    float: left;
+    margin: 40px;
+}
+#s1
+{
+    background-color: rgb(168, 203, 243);
+    height: 350px;
+    width: 880px;
+    float: right;
+    margin: 40px;
+}
+#s2
+{
+    background-color: rgb(95, 95, 87);
+    height: 300px;
+    width: 350px;
+    float: left;
+    margin: 40px;
+}
+#s3
+{
+    background-color: rgb(155, 122, 161);
+    height: 300px;
+    width: 405px;
+    float: left;
+    margin: 40px;
+}
+#s4
+{
+    background-color: rgb(231, 231, 223);
+    height: 300px;
+    width: 405px;
+    float: left;
+    margin: 40px;
+}

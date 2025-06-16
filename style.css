@@ -1,0 +1,55 @@
+
+#p1
+{
+background-color: beige;
+height: 500px;
+width:auto;
+}
+#p3
+{
+    background-color: bisque;
+    height:500px;
+    width: auto;}
+.p2
+{
+    background-image: url(kolkata.jpg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin: 40px;
+    float: right;
+}
+.p4
+{
+    background-image: url(kolhapur.jpg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin:40px;
+}
+.p5
+{background-image: url(mumbai.jpg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin:40px;
+
+}
+.p6
+{
+    background-image: url(kolhapur1.jpg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin: 40px;
+    float:right;
+}
+.p7
+{
+    background-image: url(pune.jpg);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin: 40px;
+    
+}
