@@ -1,0 +1,33 @@
+body{
+    background-color:whitesmoke;
+
+}
+
+.s1{
+    background-color:rgb(255,255,255);
+    height: 400px;
+    width: auto;
+    padding: 100px;
+
+}
+
+h4{
+    color: rgb(143, 142, 142);
+}
+h2{
+    font-family: sans-serif;
+}
+h4{
+    color:rgb(143, 142, 142);
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.card-header{
+    background-color: rgb(51, 50, 59);
+    height: 255px;
+    padding: 100px;
+}
+h6{
+    color: rgb(138, 138, 117);
+}
