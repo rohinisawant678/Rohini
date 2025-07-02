@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="javascript">
+        var s1,s2,s3,s4,sum,avg;
+        s1=parseInt(prompt("Enter marks of DCN"));
+        s2=parseInt(prompt("Enter marks of JPR"));
+        s3=parseInt(prompt("Enter marks of EES"));
+        s4=parseInt(prompt("Enter marks of MIC"));
+
+        sum=s1+s2+s3+s4;
+        avg=sum*100/400;
+
+    document.write("<br>DCN="+s1);
+    document.write("<br>JPR="+s2);
+    document.write("<br>EES="+s3);
+    document.write("<br>MIC="+s4);
+    document.write("<br>Total="+sum);
+    document.write("<br>Average="+avg);
+
+    if(avg>75)
+    {
+        document.write("<br>Distinction..");
+    }
+
+   else if(avg<75 && avg>65)
+    {
+        document.write("<br>Grade A");
+
+    }
+    else if(avg<65 && avg>40)
+    {
+        document.write("<br>Grade B");
+    }
+    else if(avg<40 && avg>35)
+    {
+        document.write("<br>Grade C");
+    }
+    else
+    {
+        document.write("<br>Fail....");
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="javascript">
+        var a,b,c,operator;
+        a=parseInt(prompt("Enter first number="));
+        b=parseInt(prompt("Enter second number="));
+
+        operator=(prompt("Enter operator here..."));
+
+        
+           switch(operator)
+           {
+                case "+":c=a+b;
+                document.write("Addition="+c);
+                break;
+
+                case "-":c=a-b;
+                document.write("Substraction="+c);
+                break;
+                
+                case "*":c=a*b;
+                document.write("Multiplication="+c);
+                break;
+                
+                case "/":c=a/b;
+                document.write("Division="+c);
+                break;
+
+                default:
+                    document.write("Entered choice is wrong.....");
+                    break;
+                
+           }
+           
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

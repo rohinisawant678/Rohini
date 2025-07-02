@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="javascript">
+        function add()
+        {
+            var a,b,sum;
+            a=parseInt(document.getElementById("First").value);
+            b=parseInt(document.getElementById("Second").value);
+            sum=a+b;
+            document.getElementById("answer").value=sum;
+
+        }
+
+        function sub()
+        {
+            var a,b,s;
+            a=parseInt(document.getElementById("First").value);
+            b=parseInt(document.getElementById("Second").value);
+            s=a-b;
+            document.getElementById("answer").value=s;
+
+        }
+
+        function mul()
+        {
+            var a,b,m;
+            a=parseInt(document.getElementById("First").value);
+            b=parseInt(document.getElementById("Second").value);
+            m=a*b;
+            document.getElementById("answer").value=m;
+
+        }
+
+        function div()
+        {
+            var a,b,d;
+            a=parseInt(document.getElementById("First").value);
+            b=parseInt(document.getElementById("Second").value);
+            d=a/b;
+            document.getElementById("answer").value=d;
+
+        }
+        
+        
+
+        </script>
+        </head>
+        <body>
+            <p>Enter the first number.<input type="text" id="First"></p>
+                <p>Enter the second numebr.<input type="text" id="Second"></p>
+                    <button onclick="add()">Add</button>
+                    <button onclick="sub()">Sub</button>
+                    
+                    <button onclick="mul()">Mul</button>
+                    
+                    <button onclick="div()">Div</button>
+                    
+
+                    <p>calculation=<input type="text" id="answer">
+</body>
+</html>
